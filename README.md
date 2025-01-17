@@ -20,8 +20,9 @@ Steps
 1. Clone this repository:bash Copy code   git clone https://github.com/Darline-Konadu/Golden-Grove-Collections
 2. cd https://github.com/Darline-Konadu/Golden-Grove-Collections
 3. Install dependencies:bash Copy code   pip install -r requirements.txt
-4. Set up environment variables: Create a .env file in the root directory and add:plaintext Copy code   SECRET_KEY=your_secret_key
-5. DEBUG=True
+4. Set up environment variables: Create a .env file in the root directory and add:plaintext Copy code   SECRET_KEY=
+5. '#####...'
+6. DEBUG=True
 6.DATABASE_URL=Database not hosted, we used djano's inbuilt databas manager   
 7. Apply migrations:bash Copy code   python manage.py migrate
 8. Run the server:bash Copy code   python manage.py runserver
